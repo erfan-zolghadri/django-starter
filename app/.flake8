@@ -1,0 +1,9 @@
+[flake8]
+exclude =
+    __pycache__,
+    migrations,
+    __init__.py,
+    settings.py,
+    manage.py
+max-line-length = 79
+per-file-ignores = ./apps/accounts/apps.py: F401
